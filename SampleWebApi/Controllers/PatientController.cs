@@ -10,7 +10,7 @@ namespace SampleWebApi.Controllers
     {
         private static readonly string[] Names = new[]
        {
-            "Frank", "Brace", "Chan", "Chole", "Mike"
+            "Frank", "Brace", "Chan", "Chole", "Mike","Smith","John"
         };
         private readonly ILogger<PatientController> _logger;
         public PatientController(ILogger<PatientController> logger)
