@@ -25,6 +25,7 @@ namespace SampleWebApi.Controllers
             {
                 BirthDate = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 Age = Random.Shared.Next(-20, 55),
+                Id = Random.Shared.Next(100,10000),
                 Name = Names[Random.Shared.Next(Names.Length)]
             })
            .ToArray();
